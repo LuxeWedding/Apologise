@@ -1,0 +1,26 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Akash Pathak\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:C:\Users\Akash Pathak\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\.npmrc
+5 silly config load:file:C:\Users\Akash Pathak\.npmrc
+6 silly config load:file:C:\Users\Akash Pathak\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @vitejs/plugin-react
+8 verbose argv "install" "@vitejs/plugin-react" "--cache" ".\\work\\npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\work\npm-cache\_logs\2026-09-16T12_51_35_618Z-
+10 verbose logfile C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\work\npm-cache\_logs\2026-09-16T12_51_35_618Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @vitejs/plugin-react@*
+15 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 1 failed with EACCES
+18 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 2 failed with EACCES
+19 http fetch GET https://registry.npmjs.org/@vitejs%2fplugin-react attempt 3 failed with EACCES
+20 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 70246ms (cache stale)
+21 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react set size:284195 disposed:false
+22 silly fetch manifest @rolldown/plugin-babel@^0.1.7 || ^0.2.0
+23 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fplugin-babel cache-miss
+24 http fetch GET https://registry.npmjs.org/@rolldown%2fplugin-babel attempt 1 failed with EACCES
+25 http fetch GET https://registry.npmjs.org/@rolldown%2fplugin-babel attempt 2 failed with EACCES

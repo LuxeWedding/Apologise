@@ -1,0 +1,625 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Akash Pathak\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:C:\Users\Akash Pathak\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\.npmrc
+5 silly config load:file:C:\Users\Akash Pathak\.npmrc
+6 silly config load:file:C:\Users\Akash Pathak\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".\\work\\npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\work\npm-cache\_logs\2026-09-16T12_46_44_350Z-
+10 verbose logfile C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\work\npm-cache\_logs\2026-09-16T12_46_44_350Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\code-frame'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\compat-data'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\core'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\generator'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-compilation-targets'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-globals'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-module-imports'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-module-transforms'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-plugin-utils'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-string-parser'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-validator-identifier'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-validator-option'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helpers'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\parser',
+27 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\parser',
+27 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\parser.cmd',
+27 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\parser.ps1'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\plugin-transform-react-jsx-self'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\plugin-transform-react-jsx-source'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\template'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\traverse'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\types'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\gen-mapping'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\remapping'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\resolve-uri'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\sourcemap-codec'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\trace-mapping'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rolldown\\pluginutils'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__core'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__generator'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__template'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__traverse'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@vitejs\\plugin-react'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\baseline-browser-mapping',
+44 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\baseline-browser-mapping',
+44 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+44 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\browserslist',
+45 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\browserslist',
+45 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\browserslist.cmd',
+45 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\browserslist.ps1'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\caniuse-lite'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\convert-source-map'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\debug'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\electron-to-chromium'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\escalade'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\gensync'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\js-tokens'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\jsesc',
+53 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\jsesc',
+53 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\jsesc.cmd',
+53 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\jsesc.ps1'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\json5',
+54 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\json5',
+54 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\json5.cmd',
+54 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\json5.ps1'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\lru-cache'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\ms'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\node-releases'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\react-refresh'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\semver',
+59 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\semver',
+59 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\semver.cmd',
+59 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\semver.ps1'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\update-browserslist-db',
+60 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\update-browserslist-db',
+60 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\update-browserslist-db.cmd',
+60 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\update-browserslist-db.ps1'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\yallist'
+61 silly reify ]
+62 silly reify moves {
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\code-frame': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.code-frame-JHnHI4hj',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\compat-data': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.compat-data-FLkHN6hb',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\core': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.core-iHxcQRed',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\generator': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.generator-wyjrRN4B',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-compilation-targets': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-compilation-targets-rR1XA8Nv',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-globals': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-globals-r2tILaX1',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-module-imports': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-module-imports-QWhUMej9',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-module-transforms': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-module-transforms-tJ5LkrNg',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-plugin-utils': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-plugin-utils-0DJIz6ly',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-string-parser': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-string-parser-uhzMFutL',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-validator-identifier': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-validator-identifier-F8JOOlU8',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helper-validator-option': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helper-validator-option-HtUg0ZwO',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\helpers': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.helpers-fUmpXfcF',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\parser': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.parser-o3N7OmsG',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\parser': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.parser-CJdyeyFz',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.parser.cmd-MM62VmLf',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.parser.ps1-HcbgWwq9',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\plugin-transform-react-jsx-self': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.plugin-transform-react-jsx-self-pm5yoT2j',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\plugin-transform-react-jsx-source': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.plugin-transform-react-jsx-source-lZGAa6ha',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\template': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.template-djiVZh11',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\traverse': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.traverse-RFvQdkyC',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\types': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@babel\\.types-a6oS9UXe',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\gen-mapping': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\.gen-mapping-LpjSyHWH',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\remapping': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\.remapping-vK0yERcR',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\resolve-uri': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\.resolve-uri-yhivf3OA',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\sourcemap-codec': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\.sourcemap-codec-ifowF9HQ',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\trace-mapping': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@jridgewell\\.trace-mapping-nk2Ortg8',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rolldown\\pluginutils': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rolldown\\.pluginutils-SqwofdgA',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__core': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\.babel__core-HLdiUpbn',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__generator': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\.babel__generator-ykg2jWNt',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__template': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\.babel__template-NiTLG5E8',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\babel__traverse': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@types\\.babel__traverse-s4HnDK8X',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@vitejs\\plugin-react': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@vitejs\\.plugin-react-6wyTprMw',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\baseline-browser-mapping': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.baseline-browser-mapping-9bCGtHrf',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.baseline-browser-mapping-9qgUYAuf',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.baseline-browser-mapping.cmd-O1BCa8xK',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.baseline-browser-mapping.ps1-mFLQNGaA',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\browserslist': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.browserslist-xhHrhyCt',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\browserslist': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.browserslist-cXSzYxi5',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.browserslist.cmd-Nn4tCRjJ',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.browserslist.ps1-wj0ul2jK',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\caniuse-lite': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.caniuse-lite-pt89RMCa',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\convert-source-map': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.convert-source-map-BuEJB2Cx',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\debug': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.debug-LSto62GF',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\electron-to-chromium': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.electron-to-chromium-HZXSPNFt',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\escalade': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.escalade-CENaeHtw',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\gensync': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.gensync-f3LVwjBh',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\js-tokens': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.js-tokens-FZZWc9H9',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\jsesc': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.jsesc-IfHHKUy9',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\jsesc': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.jsesc-9KapIQS1',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.jsesc.cmd-Cou5WmKQ',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.jsesc.ps1-cLawlzzS',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\json5': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.json5-5TLoTDjy',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\json5': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.json5-crlpPZa5',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.json5.cmd-ZxJb6Ynl',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.json5.ps1-AO789zpa',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\lru-cache': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.lru-cache-FyUWbZrX',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\ms': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.ms-YBtb1b4o',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\node-releases': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.node-releases-7vAbSQxP',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\react-refresh': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.react-refresh-2SzCKQtE',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\semver': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.semver-4wlHkMie',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\semver': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.semver-WaSoUIyO',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.semver.cmd-SCOsrXa3',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.semver.ps1-tRQyIPlL',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\update-browserslist-db': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.update-browserslist-db-M5qNHiKr',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.update-browserslist-db-HMTtREy8',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.update-browserslist-db.cmd-CW7jJdho',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.bin\\.update-browserslist-db.ps1-gcfhrPkX',
+62 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\yallist': 'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\.yallist-c4ieRydX'
+62 silly reify }
+63 silly audit bulk request {
+63 silly audit   '@esbuild/aix-ppc64': [ '0.28.2' ],
+63 silly audit   '@esbuild/android-arm': [ '0.28.2' ],
+63 silly audit   '@esbuild/android-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/android-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/darwin-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/darwin-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/freebsd-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/freebsd-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-arm': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-ia32': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-loong64': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-mips64el': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-ppc64': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-riscv64': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-s390x': [ '0.28.2' ],
+63 silly audit   '@esbuild/linux-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/netbsd-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/netbsd-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/openbsd-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/openbsd-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/openharmony-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/sunos-x64': [ '0.28.2' ],
+63 silly audit   '@esbuild/win32-arm64': [ '0.28.2' ],
+63 silly audit   '@esbuild/win32-ia32': [ '0.28.2' ],
+63 silly audit   '@esbuild/win32-x64': [ '0.28.2' ],
+63 silly audit   '@napi-rs/lzma-linux-x64-gnu': [ '1.5.1' ],
+63 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-android-arm64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-darwin-arm64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-darwin-x64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-freebsd-x64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-openbsd-x64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.63.3' ],
+63 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.63.3' ],
+63 silly audit   '@types/estree': [ '1.0.9' ],
+63 silly audit   esbuild: [ '0.28.2' ],
+63 silly audit   fdir: [ '6.5.0' ],
+63 silly audit   fsevents: [ '2.3.3' ],
+63 silly audit   nanoid: [ '3.3.19' ],
+63 silly audit   picocolors: [ '1.1.1' ],
+63 silly audit   picomatch: [ '4.0.7' ],
+63 silly audit   postcss: [ '8.5.28' ],
+63 silly audit   react: [ '19.3.0' ],
+63 silly audit   'react-dom': [ '19.3.0' ],
+63 silly audit   rollup: [ '4.63.3' ],
+63 silly audit   scheduler: [ '0.28.0' ],
+63 silly audit   'source-map-js': [ '1.2.1' ],
+63 silly audit   tinyglobby: [ '0.2.17' ],
+63 silly audit   vite: [ '7.3.6' ]
+63 silly audit }
+64 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\fsevents
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\fsevents'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-win32-ia32-msvc
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-win32-arm64-msvc
+69 silly reify mark deleted [
+69 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-openharmony-arm64
+71 silly reify mark deleted [
+71 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-openharmony-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-openbsd-x64
+73 silly reify mark deleted [
+73 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-openbsd-x64'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-x64-musl
+75 silly reify mark deleted [
+75 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-x64-musl'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-x64-gnu
+77 silly reify mark deleted [
+77 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-s390x-gnu
+79 silly reify mark deleted [
+79 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-riscv64-musl
+81 silly reify mark deleted [
+81 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-riscv64-gnu
+83 silly reify mark deleted [
+83 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-ppc64-musl
+85 silly reify mark deleted [
+85 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-ppc64-gnu
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-loong64-musl
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-loong64-gnu
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-arm64-musl
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-arm64-gnu
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-arm-musleabihf
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-linux-arm-gnueabihf
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-freebsd-x64
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-freebsd-x64'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-freebsd-arm64
+103 silly reify mark deleted [
+103 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-freebsd-arm64'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-darwin-x64
+105 silly reify mark deleted [
+105 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-darwin-x64'
+105 silly reify ]
+106 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-darwin-arm64
+107 silly reify mark deleted [
+107 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-darwin-arm64'
+107 silly reify ]
+108 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-android-arm64
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-android-arm64'
+109 silly reify ]
+110 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@rollup\rollup-android-arm-eabi
+111 silly reify mark deleted [
+111 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@rollup\\rollup-android-arm-eabi'
+111 silly reify ]
+112 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@napi-rs\lzma-linux-x64-gnu
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@napi-rs\\lzma-linux-x64-gnu'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\win32-ia32
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\win32-ia32'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\win32-arm64
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\win32-arm64'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\sunos-x64
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\sunos-x64'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\openharmony-arm64
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\openharmony-arm64'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\openbsd-x64
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\openbsd-x64'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\openbsd-arm64
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\openbsd-arm64'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\netbsd-x64
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\netbsd-x64'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\netbsd-arm64
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\netbsd-arm64'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-x64
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-x64'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-s390x
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-s390x'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-riscv64
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-riscv64'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-ppc64
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-ppc64'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-mips64el
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-mips64el'
+139 silly reify ]
+140 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-loong64
+141 silly reify mark deleted [
+141 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-loong64'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-ia32
+143 silly reify mark deleted [
+143 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-ia32'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-arm64
+145 silly reify mark deleted [
+145 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-arm64'
+145 silly reify ]
+146 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\linux-arm
+147 silly reify mark deleted [
+147 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\linux-arm'
+147 silly reify ]
+148 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\freebsd-x64
+149 silly reify mark deleted [
+149 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\freebsd-x64'
+149 silly reify ]
+150 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\freebsd-arm64
+151 silly reify mark deleted [
+151 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\freebsd-arm64'
+151 silly reify ]
+152 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\darwin-x64
+153 silly reify mark deleted [
+153 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\darwin-x64'
+153 silly reify ]
+154 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\darwin-arm64
+155 silly reify mark deleted [
+155 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\darwin-arm64'
+155 silly reify ]
+156 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\android-x64
+157 silly reify mark deleted [
+157 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\android-x64'
+157 silly reify ]
+158 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\android-arm64
+159 silly reify mark deleted [
+159 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\android-arm64'
+159 silly reify ]
+160 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\android-arm
+161 silly reify mark deleted [
+161 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\android-arm'
+161 silly reify ]
+162 verbose reify failed optional dependency C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20\node_modules\@esbuild\aix-ppc64
+163 silly reify mark deleted [
+163 silly reify   'C:\\Users\\Akash Pathak\\Documents\\Codex\\2026-09-16\\i-x20\\node_modules\\@esbuild\\aix-ppc64'
+163 silly reify ]
+164 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 527ms
+165 silly audit report {}
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly REMOVE node_modules/yallist
+217 silly REMOVE node_modules/update-browserslist-db
+218 silly REMOVE node_modules/semver
+219 silly REMOVE node_modules/react-refresh
+220 silly REMOVE node_modules/node-releases
+221 silly REMOVE node_modules/ms
+222 silly REMOVE node_modules/lru-cache
+223 silly REMOVE node_modules/json5
+224 silly REMOVE node_modules/jsesc
+225 silly REMOVE node_modules/js-tokens
+226 silly REMOVE node_modules/gensync
+227 silly REMOVE node_modules/escalade
+228 silly REMOVE node_modules/electron-to-chromium
+229 silly REMOVE node_modules/debug
+230 silly REMOVE node_modules/convert-source-map
+231 silly REMOVE node_modules/caniuse-lite
+232 silly REMOVE node_modules/browserslist
+233 silly REMOVE node_modules/baseline-browser-mapping
+234 silly REMOVE node_modules/@vitejs/plugin-react
+235 silly REMOVE node_modules/@types/babel__traverse
+236 silly REMOVE node_modules/@types/babel__template
+237 silly REMOVE node_modules/@types/babel__generator
+238 silly REMOVE node_modules/@types/babel__core
+239 silly REMOVE node_modules/@rolldown/pluginutils
+240 silly REMOVE node_modules/@jridgewell/trace-mapping
+241 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+242 silly REMOVE node_modules/@jridgewell/resolve-uri
+243 silly REMOVE node_modules/@jridgewell/remapping
+244 silly REMOVE node_modules/@jridgewell/gen-mapping
+245 silly REMOVE node_modules/@babel/types
+246 silly REMOVE node_modules/@babel/traverse
+247 silly REMOVE node_modules/@babel/template
+248 silly REMOVE node_modules/@babel/plugin-transform-react-jsx-source
+249 silly REMOVE node_modules/@babel/plugin-transform-react-jsx-self
+250 silly REMOVE node_modules/@babel/parser
+251 silly REMOVE node_modules/@babel/helpers
+252 silly REMOVE node_modules/@babel/helper-validator-option
+253 silly REMOVE node_modules/@babel/helper-validator-identifier
+254 silly REMOVE node_modules/@babel/helper-string-parser
+255 silly REMOVE node_modules/@babel/helper-plugin-utils
+256 silly REMOVE node_modules/@babel/helper-module-transforms
+257 silly REMOVE node_modules/@babel/helper-module-imports
+258 silly REMOVE node_modules/@babel/helper-globals
+259 silly REMOVE node_modules/@babel/helper-compilation-targets
+260 silly REMOVE node_modules/@babel/generator
+261 silly REMOVE node_modules/@babel/core
+262 silly REMOVE node_modules/@babel/compat-data
+263 silly REMOVE node_modules/@babel/code-frame
+264 verbose cwd C:\Users\Akash Pathak\Documents\Codex\2026-09-16\i-x20
+265 verbose os Windows_NT 10.0.26200
+266 verbose node v22.16.0
+267 verbose npm  v10.9.2
+268 verbose exit 0
+269 info ok
