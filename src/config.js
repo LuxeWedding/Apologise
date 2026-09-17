@@ -9,9 +9,9 @@ export const LOVE_CONFIG = {
   yourName: 'Akash',
   heroTitle: 'I Owe You An Apology',
   heroText:
-    "Yesterday didn't go the way I wish it had. I was rude, and I know my words and behavior may have hurt you. I don't want to make excuses. I just want to say I'm genuinely sorry.",
+    "Yesterday did not go the way I wish it had. I was rude, and I know my words and behavior hurt you. I am not here to excuse it. I am here to say, with all my heart, that I am truly sorry.",
   heroNote:
-    'This little website is my way of saying what I sometimes struggle to say out loud.',
+    'This little website is my way of saying what I struggled to say out loud—my love for you, my regret, and my hope to do better.',
   yesterdayText:
     "About yesterday, I want to be honest without dressing it up. I was rude. I let the moment come out in a way that was unfair to you, and that is on me. Even if there was confusion or emotion in the air, I still had a choice in how I spoke and how I behaved. I should have chosen patience. I should have chosen kindness. I regret that I didn't.",
   betterVersion: {

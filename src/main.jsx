@@ -85,8 +85,30 @@ function Particles() {
   );
 }
 
+function FloatingHearts() {
+  return (
+    <div className="floating-hearts" aria-hidden="true">
+      {Array.from({ length: 14 }).map((_, index) => (
+        <span
+          key={index}
+          style={{
+            '--left': `${(index * 11 + 6) % 100}%`,
+            '--delay': `${(index % 7) * -1.8}s`,
+            '--size': `${14 + (index % 5) * 7}px`,
+            '--duration': `${7 + (index % 5)}s`
+          }}
+        >
+          ♥
+        </span>
+      ))}
+    </div>
+  );
+}
+
 function MusicToggle() {
   const audioRef = useRef(null);
+  const [playing, setPlaying] = useState(false);
+  const [blocked, setBlocked] = useState(false);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -96,26 +118,60 @@ function MusicToggle() {
       try {
         audio.volume = 0.8;
         await audio.play();
+        setPlaying(true);
+        setBlocked(false);
       } catch {
-        // Browser autoplay policies may block audio until there is a user gesture.
+        setPlaying(false);
+        setBlocked(true);
       }
     };
 
     startMusic();
   }, []);
 
-  return <audio ref={audioRef} src={LOVE_CONFIG.music.src} loop autoPlay preload="auto" />;
+  const toggleMusic = async () => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    if (playing) {
+      audio.pause();
+      setPlaying(false);
+      return;
+    }
+
+    try {
+      await audio.play();
+      setPlaying(true);
+      setBlocked(false);
+    } catch {
+      setBlocked(true);
+    }
+  };
+
+  return (
+    <div className="music-control">
+      <button className="ghost-button" type="button" onClick={toggleMusic}>
+        ♪ {playing ? 'Pause Our Song' : 'Play Our Song'}
+      </button>
+      {blocked && <span className="music-note">Tap to play the song</span>}
+      <audio ref={audioRef} src={LOVE_CONFIG.music.src} loop preload="auto" />
+    </div>
+  );
 }
 
 function Hero() {
   return (
     <section className="hero section" id="home">
       <Particles />
+      <FloatingHearts />
       <div className="hero-glow one" aria-hidden="true" />
       <div className="hero-glow two" aria-hidden="true" />
       <div className="section-inner hero-content" data-reveal>
         <p className="eyebrow">For {LOVE_CONFIG.girlfriendName}</p>
-        <h1>{LOVE_CONFIG.heroTitle}</h1>
+        <div className="hero-title-wrap">
+          <span className="love-badge">I’m sorry, with all my heart</span>
+          <h1>{LOVE_CONFIG.heroTitle}</h1>
+        </div>
         <p className="hero-text">{LOVE_CONFIG.heroText}</p>
         <p className="soft-note">{LOVE_CONFIG.heroNote}</p>
         <div className="hero-actions">
@@ -403,14 +459,31 @@ function CallSection() {
 
 function FinalSection() {
   const [celebrating, setCelebrating] = useState(false);
+  const [showBigHeart, setShowBigHeart] = useState(false);
+  const finalRef = useRef(null);
 
   const celebrate = () => {
     setCelebrating(true);
     window.setTimeout(() => setCelebrating(false), 2800);
   };
 
+  useEffect(() => {
+    const target = finalRef.current;
+    if (!target) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => setShowBigHeart(entry.isIntersecting));
+      },
+      { threshold: 0.4 }
+    );
+
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className="section final-section">
+    <section className="section final-section" ref={finalRef}>
       {celebrating && (
         <div className="heart-burst" aria-hidden="true">
           {Array.from({ length: 26 }).map((_, index) => (
@@ -420,15 +493,29 @@ function FinalSection() {
           ))}
         </div>
       )}
+      <div className={`scroll-love-heart ${showBigHeart ? 'is-visible' : ''}`} aria-hidden="true">
+        ♡
+      </div>
       <div className="section-inner center" data-reveal>
         <p className="eyebrow">One last thing</p>
         <h2>One Last Thing...</h2>
         <p className="final-quote">
-          I'm not asking you to forget yesterday.
+
           <br />
           I'm just want to talk Ishaaa.
+          <br />
+          <strong>please maan jaa Ishaaa</strong>
         </p>
-        <div className="final-heart" aria-hidden="true">♡</div>
+        <div className="final-heart-wrap" aria-hidden="true">
+          <div className="final-orbit">
+            {Array.from({ length: 12 }).map((_, index) => (
+              <span key={index} style={{ '--rotate': `${index * 30}deg` }}>
+                ♡
+              </span>
+            ))}
+          </div>
+          <div className="final-heart">♡</div>
+        </div>
         <h3>I'm Sorry ♡</h3>
         <p className="love-line">I Love You.</p>
         <button className="primary-button" type="button" onClick={celebrate}>
